@@ -151,12 +151,11 @@
     },
     {
       "name": "v18",
-      "tag": "v18.0.2",
-      "recommended_version": "v18.0.2",
+      "tag": "v18.0.1",
+      "recommended_version": "v18.0.1",
       "compatible_versions": [
         "v18.0.0",
-        "v18.0.1",
-        "v18.0.2"
+        "v18.0.1"
       ],
       "height": 2375000,
       "proposal": 16,
@@ -165,10 +164,10 @@
         "version": "v1.23"
       },
       "binaries": {
-        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v18.0.2/xiond_18.0.2_darwin_amd64.tar.gz?checksum=sha256:a076bf6f8695ee296821add8135ce0c3600ad1edbed941f334182bd1453cd26a",
-        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v18.0.2/xiond_18.0.2_darwin_arm64.tar.gz?checksum=sha256:b4421816398ebb6e29ae90ce9ac7ba5aef89fd88955900b6ab1003176e78d19c",
-        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v18.0.2/xiond_18.0.2_linux_amd64.tar.gz?checksum=sha256:68f5d3af9699b233d5d2f3981cecef947fb5bbd3ae37f0e0b2f649cd08f71b01",
-        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v18.0.2/xiond_18.0.2_linux_arm64.tar.gz?checksum=sha256:6624c3473c5415f7e12a6cc1fc1b51741319c24bc231fd04cf8353a9754c1ce6"
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v18.0.1/xiond_18.0.1_darwin_amd64.tar.gz?checksum=sha256:e1d0bde096c0bd560d816e09d615fc281cce9d6f504420990672c01288d75a02",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v18.0.1/xiond_18.0.1_darwin_arm64.tar.gz?checksum=sha256:ea073b1d58c1a226df34b69be6c98800d3a8cd9a97771ebc1d45fdce8d96cf5c",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v18.0.1/xiond_18.0.1_linux_amd64.tar.gz?checksum=sha256:2f8b93ad016b8960234fd2fc3eb365b212517c59c19edb1ff5d964d3d5588e26",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v18.0.1/xiond_18.0.1_linux_arm64.tar.gz?checksum=sha256:b48a77972e23a459b7d1ac48e2315e3646332c4d520a8ca0364ba7c3d4aef8f2"
       },
       "sdk": {
         "type": "cosmos",
@@ -210,6 +209,39 @@
       "sdk": {
         "type": "cosmos",
         "version": "v0.53.0"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.38.17"
+      },
+      "cosmwasm": {
+        "version": "v0.54.0",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v8.7.0"
+      }
+    },
+    {
+      "name": "v20",
+      "tag": "v20.0.0",
+      "recommended_version": "v20.0.0",
+      "height": 5380000,
+      "proposal": 35,
+      "language": {
+        "type": "go",
+        "version": "v1.23"
+      },
+      "binaries": {
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v20.0.0/xiond_20.0.0_darwin_amd64.tar.gz?checksum=sha256:7476525f27194809a45e920bc6f7e934e64fdc58ab29007fe1f502c6cfc10265",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v20.0.0/xiond_20.0.0_darwin_arm64.tar.gz?checksum=sha256:75ed3db62375fe0acddf72f72c2a9f7d4a70ddba2d4480bc08032caccd09a8eb",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v20.0.0/xiond_20.0.0_linux_amd64.tar.gz?checksum=sha256:a7a63a81e6a8095aa532e58f79b98164a7fbdffd0d0f6c98250880dc1c061a0b",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v20.0.0/xiond_20.0.0_linux_arm64.tar.gz?checksum=sha256:4c452a48078687b45b95710ccbe506b0e4cb186329b0bac243d3721a624a1001"
+      },
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.53.3"
       },
       "consensus": {
         "type": "cometbft",
