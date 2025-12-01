@@ -1,4 +1,4 @@
-name: Update Chain Registry from Xion Release
+name: Update Xion Mainnet Chain Registry on Release
 
 on:
   repository_dispatch:
