@@ -341,6 +341,7 @@ jobs:
             ---
             🤖 This PR was automatically created by the chain-registry testnet update workflow.
           branch: "chore/update-xion-testnet-${{ steps.release_vars.outputs.tag_name }}"
+          base: xion/main
           delete-branch: false
           reviewers: |
             Burnt_Engineering/Burnt_DevOps
