@@ -255,6 +255,109 @@
         "type": "go",
         "version": "v8.7.0"
       }
+    },
+    {
+      "name": "v21",
+      "tag": "v21.0.1",
+      "recommended_version": "v21.0.1",
+      "compatible_versions": [
+        "v21.0.0",
+        "v21.0.1"
+      ],
+      "height": 6785000,
+      "proposal": 37,
+      "language": {
+        "type": "go",
+        "version": "v1.24"
+      },
+      "binaries": {
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v21.0.1/xiond_21.0.1_darwin_amd64.tar.gz?checksum=sha256:22aa1231d284db86b1f44df4a814e8520ff4f6d1d9eaf21dad8079b1b4f6b4ef",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v21.0.1/xiond_21.0.1_darwin_arm64.tar.gz?checksum=sha256:0687ba93ed57c2658b54f217b53c20dca19491487898b782baeb20ab55d87cb6",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v21.0.1/xiond_21.0.1_linux_amd64.tar.gz?checksum=sha256:22872984ffb13cef3a79fd7ee923014835f5b17b69952e4fd86a5bf053bd49d9",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v21.0.1/xiond_21.0.1_linux_arm64.tar.gz?checksum=sha256:0ffb44d064e8adc7bca8d883da8f168a6e19fd2e265cfdb6d2224adcdeb6b663"
+      },
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.53.4"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.38.19"
+      },
+      "cosmwasm": {
+        "version": "v0.61.2",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v10.3.0"
+      }
+    },
+    {
+      "name": "v22",
+      "tag": "v22.0.0",
+      "recommended_version": "v22.0.0",
+      "height": 9300000,
+      "proposal": 42,
+      "language": {
+        "type": "go",
+        "version": "v1.25"
+      },
+      "binaries": {
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v22.0.0/xiond_22.0.0_darwin_amd64.tar.gz?checksum=sha256:7680342309fcb748d730b69cda086fa99e25717d9f7ea40606c43e701a81180d",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v22.0.0/xiond_22.0.0_darwin_arm64.tar.gz?checksum=sha256:dba9e7e5ed337e7166ff0c8e41be6e8f68e90cacca3ff6421c355c748bc60775",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v22.0.0/xiond_22.0.0_linux_amd64.tar.gz?checksum=sha256:ff7fa1dd1032d62c84e74daa3d621bfd66004f3c00da9dcd09da78cff9942310",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v22.0.0/xiond_22.0.0_linux_arm64.tar.gz?checksum=sha256:943350a554472fac3875e11e2ed26a8db5c96314f394985d134ec789094b9a23"
+      },
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.53.4"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.38.19"
+      },
+      "cosmwasm": {
+        "version": "v0.61.6",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v10.4.0"
+      }
+    },
+    {
+      "name": "v23",
+      "tag": "v23.0.0",
+      "recommended_version": "v23.0.0",
+      "height": 9431000,
+      "proposal": 44,
+      "language": {
+        "type": "go",
+        "version": "v1.25"
+      },
+      "binaries": {
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v23.0.0/xiond_23.0.0_darwin_amd64.tar.gz?checksum=sha256:7f16f2212abb5eb1720e7239f287b9d1fe3ec6e919a895aa01b07ea5e340f448",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v23.0.0/xiond_23.0.0_darwin_arm64.tar.gz?checksum=sha256:8c928c5916a315652106ac8eabde4a32193cde6a61f71a959302b1c6b713de6c",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v23.0.0/xiond_23.0.0_linux_amd64.tar.gz?checksum=sha256:85f21c514d9f677c58b37e988923de9b47fdfb6746e97cc6c72f18e47363531a",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v23.0.0/xiond_23.0.0_linux_arm64.tar.gz?checksum=sha256:d4373c1981a8637a49d904b6fb2a32bd2c696ec59edcbdade2b70ecf197ac937"
+      },
+      "sdk": {
+        "type": "cosmos",
+        "version": "v0.53.4"
+      },
+      "consensus": {
+        "type": "cometbft",
+        "version": "v0.38.19"
+      },
+      "cosmwasm": {
+        "version": "v0.61.6",
+        "enabled": true
+      },
+      "ibc": {
+        "type": "go",
+        "version": "v10.4.0"
+      }
     }
   ]
 }
