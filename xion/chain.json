@@ -80,11 +80,6 @@
   "peers": {
     "seeds": [
       {
-        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
-        "address": "xion-mainnet-seed.autostake.com:27596",
-        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
-      },
-      {
         "id": "20e1000e88125698264454a884812746c2eb4807",
         "address": "seeds.lavenderfive.com:22356",
         "provider": "Lavender.Five Nodes \ud83d\udc1d"
@@ -102,24 +97,9 @@
     ],
     "persistent_peers": [
       {
-        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
-        "address": "xion-mainnet-peer.autostake.com:27596",
-        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
-      },
-      {
-        "id": "20e1000e88125698264454a884812746c2eb4807",
-        "address": "seeds.lavenderfive.com:22356",
-        "provider": "Lavender.Five Nodes \ud83d\udc1d"
-      },
-      {
         "id": "cc90aceb84a07b2bd4fe1dce3c1542a3900cf2f8",
         "address": "65.109.122.90:26656",
         "provider": "Blockval"
-      },
-      {
-        "id": "d27cde0c62024a05d46fe375cb91956584fa69a4",
-        "address": "15.235.115.151:18400",
-        "provider": "Cosmostation"
       },
       {
         "id": "c36b658e1e2725542faa14063bfe4f9659286406",
@@ -130,16 +110,6 @@
         "id": "7419137b70620c358cdf38809f1c00eba17cd420",
         "address": "72.251.3.24:56206",
         "provider": "Nodes.Guru"
-      },
-      {
-        "id": "5f5cfac5c38506fbb4275c19e87c4107ec48808d",
-        "address": "65.21.198.100:12956",
-        "provider": "nodex.one"
-      },
-      {
-        "id": "766af9cd08365704f7962d3071d1a9c684a88005",
-        "address": "95.217.224.124:43656",
-        "provider": "stakeLab"
       },
       {
         "id": "7b689a51064007d0da05384b1ae6037dca9aae85",
@@ -155,28 +125,12 @@
         "provider": "\ud83d\udd25BurntLabs\ud83d\udd25"
       },
       {
-        "address": "https://xion-rpc.lavenderfive.com:443",
-        "provider": "Lavender.Five Nodes \ud83d\udc1d"
-      },
-      {
         "address": "https://rpc-burnt.imperator.co:443",
         "provider": "Imperator.co"
       },
       {
         "address": "https://xion-rpc.polkachu.com:443",
         "provider": "Polkachu"
-      },
-      {
-        "address": "https://xion-mainnet-rpc.autostake.com:443",
-        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
-      },
-      {
-        "address": "https://rpc.xion.nodestake.org:443",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "https://xion-rpc.kingnodes.com:443",
-        "provider": "kingnodes \ud83d\udc51"
       },
       {
         "address": "https://xion-mainnet-rpc.itrocket.net:443",
@@ -189,28 +143,12 @@
         "provider": "\ud83d\udd25BurntLabs\ud83d\udd25"
       },
       {
-        "address": "https://xion-api.lavenderfive.com",
-        "provider": "Lavender.Five Nodes \ud83d\udc1d"
-      },
-      {
         "address": "https://lcd-burnt.imperator.co",
         "provider": "Imperator.co"
       },
       {
         "address": "https://xion-api.polkachu.com",
         "provider": "Polkachu"
-      },
-      {
-        "address": "https://xion-mainnet-lcd.autostake.com",
-        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
-      },
-      {
-        "address": "https://api.xion.nodestake.org",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "https://xion-rest.kingnodes.com",
-        "provider": "kingnodes \ud83d\udc51"
       },
       {
         "address": "https://xion-mainnet-api.itrocket.net",
@@ -223,24 +161,8 @@
         "provider": "\ud83d\udd25BurntLabs\ud83d\udd25"
       },
       {
-        "address": "xion-grpc.lavenderfive.com:443",
-        "provider": "Lavender.Five Nodes \ud83d\udc1d"
-      },
-      {
         "address": "xion-grpc.polkachu.com:22390",
         "provider": "Polkachu"
-      },
-      {
-        "address": "xion-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
-      },
-      {
-        "address": "grpc.xion.nodestake.org:443",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "xion-grpc.kingnodes.com:443",
-        "provider": "kingnodes \ud83d\udc51"
       },
       {
         "address": "xion-mainnet-grpc.itrocket.net:443",
@@ -266,12 +188,6 @@
       "url": "https://staking-explorer.com/explorer/xion",
       "tx_page": "https://staking-explorer.com/transaction.php?chain=xion&tx=${txHash}",
       "account_page": "https://staking-explorer.com/account.php?chain=xion&addr=${accountAddress}"
-    },
-    {
-      "kind": "NodeStake",
-      "url": "https://explorer.nodestake.org/xion",
-      "tx_page": "https://explorer.nodestake.org/xion/tx/${txHash}",
-      "account_page": "https://explorer.nodestake.org/xion/account/${accountAddress}"
     },
     {
       "kind": "Nodes.Guru",
