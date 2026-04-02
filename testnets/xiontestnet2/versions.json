@@ -442,10 +442,10 @@
         "version": "v1.25"
       },
       "binaries": {
-        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_darwin_amd64.tar.gz?checksum=sha256:PLACEHOLDER",
-        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_darwin_arm64.tar.gz?checksum=sha256:PLACEHOLDER",
-        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_linux_amd64.tar.gz?checksum=sha256:PLACEHOLDER",
-        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_linux_arm64.tar.gz?checksum=sha256:PLACEHOLDER"
+        "darwin/amd64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_darwin_amd64.tar.gz",
+        "darwin/arm64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_darwin_arm64.tar.gz",
+        "linux/amd64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_linux_amd64.tar.gz",
+        "linux/arm64": "https://github.com/burnt-labs/xion/releases/download/v26.1.0-rc3/xiond_26.1.0-rc3_linux_arm64.tar.gz"
       },
       "sdk": {
         "type": "cosmos",
