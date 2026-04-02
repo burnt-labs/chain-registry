@@ -636,8 +636,8 @@
         "provider": "Allnodes ⚡️ Nodes & Staking"
       },
       {
-        "id": "2cb8dd6195c65458e3c18505bb70ce2ff624f85c",
-        "address": "seed.osmosis.validatus.com:2000",
+        "id": "68f092ea9d1c1e5768130eb55c3d9b94af6071f1",
+        "address": "seed.osmosis.validatus.com:2120",
         "provider": "Validatus"
       },
       {
@@ -939,12 +939,6 @@
       "url": "https://mainnet.whispernode.com/osmosis",
       "tx_page": "https://mainnet.whispernode.com/osmosis/tx/${txHash}",
       "account_page": "https://mainnet.whispernode.com/osmosis/account/${accountAddress}"
-    },
-    {
-      "kind": "Chainroot",
-      "url": "https://explorer.chainroot.io/osmosis",
-      "tx_page": "https://explorer.chainroot.io/osmosis/transactions/${txHash}",
-      "account_page": "https://explorer.chainroot.io/osmosis/accounts/${accountAddress}"
     },
     {
       "kind": "Valopers",
